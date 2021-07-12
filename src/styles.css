@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&display=swap");
+* {
+  font-family: "Cairo", sans-serif;
+}
+body {
+  background-color: #88bdbc !important;
+}
+
+.bgNav {
+  background-color: #112d32;
+}
+
+.btn-primary,
+.btn-success {
+  background-color: #6e6658 !important;
+  border: none !important;
+}

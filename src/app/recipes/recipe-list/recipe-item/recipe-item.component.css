@@ -1,0 +1,12 @@
+.card.active {
+  background-color: #254e58;
+  color: white;
+}
+
+p {
+  font-size: small;
+}
+
+h5 {
+  font-weight: 900;
+}

@@ -1,0 +1,28 @@
+<!-- <a href="#" class="list-group-item clearfix" (click)="onSelected()">
+    <div class="float-start">
+        <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+        <p class="list-group-item-text">{{ recipe.description }}</p>
+    </div>
+    <span class="float-end">
+        <img [src]="recipe.imagePath" [alt]="recipe.name" class="rounded" style="max-height: 50px;">
+    </span>
+</a> -->
+
+
+<div class="card float-left mb-2 p-1" routerLinkActive="active">
+    <div class="row ">
+
+        <div class="col-sm-7">
+            <div class="card-block">
+                <h5 class="card-title">{{ recipe.name }}</h5>
+                <p>{{ recipe.description }}</p>
+            </div>
+            <a [routerLink]="[index]" class="stretched-link" style="cursor: pointer;"></a>
+        </div>
+
+        <div class="col-sm-5">
+            <img class="d-block w-100 rounded-end" [src]="recipe.imagePath" [alt]="recipe.name"
+                style="max-height: 10rem;">
+        </div>
+    </div>
+</div>
